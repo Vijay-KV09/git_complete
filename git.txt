@@ -26,6 +26,14 @@ git config --global user.email
 
 git config --global core.editor "code --wait" //for opening vs code editor as default editor
 
+git branch <branch_name>
+
+git switch -c <branch_name>
+
+git checkout <branch_name>
+
+git branch -d <branch_name>
+
 ------------------------------
 important git file: .gitignore //for protecting environment files or any other files that are much important(.env files) 
 ------------------------------
@@ -58,5 +66,26 @@ info                                                                            
 git merge and git conflicts:
 #--------------------------#
 
-Branches: 
+Creating Branches: 
 
+git branch <branch_name>
+
+Moving to that Branch:
+
+git checkout <branch_name>
+
+Default Editor:
+
+git config --global core.editor "code --watch" (to make vs code as default editor)
+
+Conflict resolvers:
+#-----------------#
+
+git diff --staged (to differentiate file before staging and after staging)
+Ex: Indicators (---- => for file before staging and ++++ => for file after staging)
+
+git stash -> (pause the branch your working on and get to other branch do your Immediate work and commit it get back to stashed branch and work again)
+
+git stash pop -> (to start working with paused branch)
+
+git stash list -> (to list out staged branches and work on respective branch you want)
