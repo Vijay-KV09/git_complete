@@ -12,7 +12,13 @@ git status
 
 git init
 
-git commit 
+git add
+
+git commit
+
+git log
+
+
 
 git command flow:
 
