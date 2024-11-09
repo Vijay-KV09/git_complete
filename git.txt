@@ -4,7 +4,16 @@ github - services
 
 version control system - track files on file change
 
-commands:
+basic commands:
+
+git branch -M <working_branch>
+
+git push -u origin <github_repo>
+
+git pull <github_repo>
+
+
+important commands:
 
 git --version
 
@@ -33,6 +42,12 @@ git switch -c <branch_name>
 git checkout <branch_name>
 
 git branch -d <branch_name>
+
+git reflog
+
+git checkout <commit_id>
+
+git checkout HEAD~2 => to get back 2 commits back
 
 ------------------------------
 important git file: .gitignore //for protecting environment files or any other files that are much important(.env files) 
@@ -89,3 +104,9 @@ git stash -> (pause the branch your working on and get to other branch do your I
 git stash pop -> (to start working with paused branch)
 
 git stash list -> (to list out staged branches and work on respective branch you want)
+
+----------
+Git rebase
+----------
+
+
