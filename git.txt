@@ -107,3 +107,11 @@ git stash pop -> (to start working with paused branch)
 
 git stash list -> (to list out staged branches and work on respective branch you want)
 
+Github Features
+---------------
+
+1.Adding collaborators
+2.README file
+3.Adding Gists
+4.Codespaces
+5.Dev container
