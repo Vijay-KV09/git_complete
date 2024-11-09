@@ -18,9 +18,17 @@ git commit
 
 git log
 
+git log --oneline
+
 git config --global user.name
 
 git config --global user.email
+
+git config --global core.editor "code --wait" //for opening vs code editor as default editor
+
+------------------------------
+important git file: .gitignore //for protecting environment files or any other files that are much important(.env files) 
+------------------------------
 
 git command flow:
 
