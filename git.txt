@@ -43,6 +43,8 @@ git checkout <branch_name>
 
 git branch -d <branch_name>
 
+git branch -M <branch_name> => for chaning the branch name
+
 git reflog
 
 git checkout <commit_id>
@@ -104,11 +106,4 @@ git stash -> (pause the branch your working on and get to other branch do your I
 git stash pop -> (to start working with paused branch)
 
 git stash list -> (to list out staged branches and work on respective branch you want)
-
-----------
-Git rebase
-----------
-
-----------------------------------------------------
-Git push:
 
