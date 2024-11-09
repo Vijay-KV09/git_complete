@@ -51,9 +51,9 @@ git checkout <commit_id>
 
 git checkout HEAD~2 => to get back 2 commits back
 
-------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 important git file: .gitignore //for protecting environment files or any other files that are much important(.env files) 
-------------------------------
+-----------------------------------------------------------------------------------------------------------------------
 
 git command flow:
 
