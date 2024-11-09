@@ -1,0 +1,25 @@
+git - software
+
+github - services
+
+version control system - track files on file change
+
+commands:
+
+git --version
+
+git status
+
+git init
+
+git commit 
+
+git command flow:
+
+write the file -> add the file -> commit the file 
+
+---------------------------------------------------------------------------------
+Working Dir -> git add -> staging area -> git commit -> repo -> git push -> github
+---------------------------------------------------------------------------------
+
+
