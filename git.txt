@@ -30,6 +30,8 @@ git config --global core.editor "code --wait" //for opening vs code editor as de
 important git file: .gitignore //for protecting environment files or any other files that are much important(.env files) 
 ------------------------------
 
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 git command flow:
 
 write the file -> add the file -> commit the file 
@@ -38,4 +40,23 @@ write the file -> add the file -> commit the file
 Working Dir -> git add -> staging area -> git commit -> repo -> git push -> github
 ---------------------------------------------------------------------------------
 
+----------------------------
+Behind the scenes of commit:
+----------------------------
+
+
+----------                                                                     -----------------
+new hash                                                                        previous  hash
+
+parent            <- new hash commit is always created by previous hash         previous parent
+
+info                                                                            previous info
+----------                                                                     -----------------
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+git merge and git conflicts:
+#--------------------------#
+
+Branches: 
 
