@@ -109,4 +109,6 @@ git stash list -> (to list out staged branches and work on respective branch you
 Git rebase
 ----------
 
+----------------------------------------------------
+Git push:
 
